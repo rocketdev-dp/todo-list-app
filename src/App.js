@@ -76,7 +76,7 @@ function App() {
 return ( 
   <> 
   <Router>
-    <Header title="My Todos List" searchBar={false} /> 
+    <Header title="My Todos List" searchBar={true} /> 
     <Switch>
         <Route exact path="/" render={()=>{
           return(
